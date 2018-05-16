@@ -32,6 +32,7 @@ module.exports = {
       "${BUILD_NAME}": process.env.BUILD_NAME,
       "${BUILD_JOB_NAME}": process.env.BUILD_JOB_NAME,
       "${BUILD_PIPELINE_NAME}": process.env.BUILD_PIPELINE_NAME,
+      "${BUILD_TEAM_NAME}": process.env.BUILD_TEAM_NAME,
       "${ATC_EXTERNAL_URL}": process.env.ATC_EXTERNAL_URL
     };
 
