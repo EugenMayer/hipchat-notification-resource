@@ -15,7 +15,7 @@
 # Copyright 2015 Michael Hart (michael.hart.au@gmail.com)
 # https://github.com/mhart/alpine-node
 
-FROM mhart/alpine-node:5.9
+FROM mhart/alpine-node:10
 
 ADD scripts/ /scripts/
 ADD assets/ /opt/resource/

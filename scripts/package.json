@@ -1,12 +1,14 @@
 {
   "name": "hipchat-notification-unit",
+  "description": "resource to notify hipchat usig a concourse task",
+  "repository": "https://github.com/EugenMayer/hipchat-notification-resource",
   "version": "1.0.0",
   "main": "notify.js",
   "scripts": {
     "test": "mocha test.js"
   },
   "author": "",
-  "license": "none",
+  "license": "GPL-3.0",
   "dependencies": {
     "async": "^2.0.0-rc.3",
     "request": "2.69.0"
